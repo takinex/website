@@ -1,163 +1,367 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="icon" href="favicon.png" type="image/x-icon">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon-180x180.png">
-  <title>TAKINEX - Powering Businesses with Smart Solutions</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #000;
-      color: #fff;
-      line-height: 1.6;
-    }
+    <!--Page Title-->
+    <title>TAKINEX– Powering Businesses with Smart Solutions</title>
 
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 3rem 2rem;
-      text-align: center;
-    }
+    <!--Meta Keywords and Description-->
+   <meta name="keywords" content="business apps, mobile app development, gym management app, billing software, business automation, Android apps, offline business apps, small business tools">
+   <meta name="description" content="We build smart business apps including gym management and billing software. Simple, powerful, and offline-ready solutions to grow your business.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
 
-    .logo {
-      width: 120px;
-      margin: 0 auto 1.5rem;
-      display: block;
-    }
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 
-    h1 {
-      font-size: 3rem;
-      letter-spacing: 2px;
-      margin-bottom: 1rem;
-    }
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
 
-    p {
-      font-size: 1.2rem;
-      color: #ccc;
-      margin-bottom: 2rem;
-    }
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
 
-    .section {
-      margin-top: 3rem;
-      padding: 2rem;
-      border: 1px solid #333;
-      border-radius: 12px;
-      background: rgba(255,255,255,0.03);
-    }
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    .section h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      color: #fff;
-    }
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
 
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-      margin-top: 2rem;
-    }
-
-    .feature {
-      padding: 1.5rem;
-      border: 1px solid #444;
-      border-radius: 10px;
-      background: rgba(255,255,255,0.05);
-    }
-
-    .feature h3 {
-      font-size: 1.3rem;
-      margin-bottom: 0.5rem;
-      color: #fff;
-    }
-
-    .feature p {
-      font-size: 1rem;
-      color: #bbb;
-    }
-
-    .cta-btn {
-      margin-top: 2.5rem;
-      display: inline-block;
-      padding: 1rem 2rem;
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: #000;
-      background: #fff;
-      border: none;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: all 0.3s ease;
-    }
-
-    .cta-btn:hover {
-      background: #f0f0f0;
-      transform: translateY(-3px);
-    }
-
-    @media (max-width: 600px) {
-      h1 { font-size: 2.2rem; }
-      p { font-size: 1rem; }
-      .section h2 { font-size: 1.6rem; }
-      .feature h3 { font-size: 1.1rem; }
-    }
-  </style>
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div class="container">
 
-    <img src="logo.png" alt="Takinex Logo" class="logo" />
-
-    <!-- Company Intro -->
-    <div class="section">
-     
-      <p>
-       TAKINEX– Powering Businesses with Smart Solutions
-      </p>
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
+</div>
+<!--End of Preloader-->
 
-    <!-- Featured Product -->
-    <div class="section">
-      <h2>Featured Product – Zapbill</h2>
-	  <img src="hero.png" alt="Logo"  style="width: auto; height: 400px;" />
-      <p>
-        Zapbill is our flagship billing and invoicing software designed 
-        for small and medium businesses. With Zapbill, you can manage 
-        sales, invoices, customers, and inventory all in one seamless app.
-      </p>
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
 
-      <div class="features">
-        <div class="feature">
-          <h3>📊 Dashboard</h3>
-          <p>Get real-time insights into your sales, revenue, and expenses in one place.</p>
-        </div>
-        <div class="feature">
-          <h3>🧾 Invoicing</h3>
-          <p>Create and share professional invoices instantly with your customers.</p>
-        </div>
-        <div class="feature">
-          <h3>👥 Customers</h3>
-          <p>Manage your customer database with detailed purchase history and insights.</p>
-        </div>
-        <div class="feature">
-          <h3>📦 Inventory</h3>
-          <p>Track your stock levels and manage products efficiently with low-stock alerts.</p>
-        </div>
-      </div>
+<div id="wrapper">
 
-      <a href="https://zapbill.takinex.com/" class="cta-btn">Explore Zapbill</a>
-    </div>
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
 
-  </div>
+                    <!--Logo-->
+                    <div id="logo">
+
+                        <!--Logo that is shown on the banner-->
+                        <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
+                        <!--End of Banner Logo-->
+
+                        <!--The Logo that is shown on the sticky Navigation Bar-->
+                        <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                        <!--End of Navigation Logo-->
+
+                    </div>
+                    <!--End of Logo-->
+
+                    <aside>
+
+                        <!--Social Icons in Header-->
+                        <ul class="social-icons">
+                             <li>
+                                <a target="_blank" title="Play Store" href="https://play.google.com/store/apps/dev?id=8408176178113118290">
+                                    <i class="fa fa-android fa-1x"></i><span>Play Store</span>
+                                </a>
+                            </li>
+							
+							<li>
+                                <a target="_blank" title="App Store" href="https://play.google.com/store/apps/dev?id=8408176178113118290">
+                                    <i class="fa fa-apple fa-1x"></i><span>App Store</span>
+                                </a>
+                            </li>
+                         
+                            <li>
+                                <a target="_blank" title="Twitter" href="http://www.twitter.com/takinex">
+                                    <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Instagram" href="http://www.instagram.com/takinex">
+                                    <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                                </a>
+                            </li>
+                           
+                        </ul>
+                        <!--End of Social Icons in Header-->
+
+                    </aside>
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="#banner">Home</a>
+                            </li>
+                            <li>
+                                <a href="#zapbill">Retail</a>
+                            </li>
+                            <li>
+                                <a href="#gymbill">Gym</a>
+                            </li>
+                            <li>
+                                <a href="#morsel">Restaurant</a>
+                            </li>
+                          
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <h1>BUILT FOR BUSINESS GROWTH</h1>
+                    <h2>Streamline your daily operations with powerful apps designed to save time, reduce errors, and boost productivity.</h2>
+                </div>
+
+                <!--Call to Action-->
+                <a href="https://play.google.com/store/apps/dev?id=8408176178113118290" class="button">EXPLORE OUR APPS</a>
+                <!--End Call to Action-->
+
+            </div>
+
+        </div><!--End of Row-->
+    </header>
+
+    <!--Main Content Area-->
+    <main id="content">
+
+      
+
+
+       
+
+
+        <!--Content Zapbill-->
+        <div id="zapbill" class="scrollto clearfix">
+
+            <div class="row no-padding-bottom clearfix">
+
+
+              
+             <div class="col-3">
+                    <img src="images/zapbill_phone.png" alt="Dancer"/>
+                </div>
+                <!--Content of the Right Side-->
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>RETAIL</h3>
+                        <h2 class="section-title">Zapbill: POS Invoice & Billing</h2>
+                        <p class="section-subtitle">Zapbill is a simple, fast, and secure billing app designed for shopkeepers, small businesses, freelancers, and service providers.</p>
+                    </div>
+                    <p>Create professional invoices, track sales & expenses, manage customers & payments, and get powerful business reports — all in one app.
+                    </p>
+                    <p>
+                       Whether you run a shop, retail store, wholesale business, or service-based work, Zapbill helps you save time and grow faster. 
+                    </p>
+                    <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
+                    <a href="https://zapbill.takinex.com"  class="button">
+                        LEARN MORE <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <!--End Content Right Side-->
+
+                  <!--Content Left Side-->
+                <div class="col-3">
+                    <!--User Testimonial-->
+                  
+					 <blockquote class="testimonial text-right bigtest">
+                        <q>Excellent billing app! Clean interface, easy invoicing, and great features like tax calculation and payment tracking.Ideal for small businesses. Highly recommended!</q>
+                        <footer>— Deepak Gupta,Metro Mini Mart</footer>
+                    </blockquote>
+                    <!-- End of Testimonial-->
+
+                </div>
+                <!--End Content Left Side-->
+
+            </div>
+
+
+        </div>
+        <!--End of Content Section-->
+		
+		
+		 <!--Content Gymbill-->
+        <div id="gymbill" class="scrollto clearfix">
+
+            <div class="row no-padding-bottom clearfix">
+
+
+              
+             <div class="col-3">
+                    <img src="images/gymbill_phone.png" alt="Dancer"/>
+                </div>
+                <!--Content of the Right Side-->
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>GYM</h3>
+                        <h2 class="section-title">GymBill - Gym Management App</h2>
+                        <p class="section-subtitle">GymBill is a powerful yet simple Gym Management App designed for gym owners, fitness centers, and trainers to manage their gym operations efficiently. </p>
+                    </div>
+                    <p>Easily track members, record attendance, manage memberships, and monitor payments — all in one place.
+                    </p>
+                    <p>
+                        Whether you run a small fitness studio or a large gym, GymBill helps you organize your gym business with smart tools that save time and reduce manual work.
+                    </p>
+                    <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
+                     <a href="https://gymbill.takinex.com"  class="button">
+                        LEARN MORE <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <!--End Content Right Side-->
+
+                  <!--Content Left Side-->
+                <div class="col-3">
+                    <!--User Testimonial-->
+                    <blockquote class="testimonial text-right bigtest">
+                        <q>Since using GymBill, managing our gym members and payments has become much more organized.</q>
+                        <footer>— Sophia Wilson,EliteFit Training Club</footer>
+                    </blockquote>
+					
+                    <!-- End of Testimonial-->
+
+                </div>
+                <!--End Content Left Side-->
+
+            </div>
+
+
+        </div>
+        <!--End of Content Section-->
+		
+
+      
+        <!--Content Gymbill-->
+        <div id="morsel" class="scrollto clearfix">
+
+            <div class="row no-padding-bottom clearfix">
+
+
+              
+             <div class="col-3">
+                    <img src="images/morsel_phone.png" alt="Dancer"/>
+                </div>
+                <!--Content of the Right Side-->
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>RESTAURANT</h3>
+                        <h2 class="section-title">Morsel - Restaurant POS</h2>
+                        <p class="section-subtitle">Morsel POS is a powerful and easy-to-use restaurant billing system designed to streamline your daily operations. </p>
+                    </div>
+                    <p>Manage orders, billing, tables, and reports—all from a single app.
+                    </p>
+                    <p>
+                        Perfect for restaurants, cafés, and food outlets, Morsel helps you serve customers faster while keeping your business organized.
+                    </p>
+                    <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
+                     <a href="https://morsel.takinex.com"  class="button">
+                        LEARN MORE <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <!--End Content Right Side-->
+
+                  <!--Content Left Side-->
+                <div class="col-3">
+                    <!--User Testimonial-->
+                    <blockquote class="testimonial text-right bigtest">
+                        <q>We’re crafting a powerful experience to help you manage your business smarter and faster.</q>
+                        <footer>— Coming Soon</footer>
+                    </blockquote>
+					
+                    <!-- End of Testimonial-->
+
+                </div>
+                <!--End Content Left Side-->
+
+            </div>
+
+
+        </div>
+        <!--End of Content Section-->
+
+       
+
+    </main>
+    <!--End Main Content Area-->
+
+
+    <!--Footer-->
+    <footer id="landing-footer" class="clearfix">
+        <div class="row clearfix">
+
+            <p id="copyright" class="col-2">© Copyright 2026 <a href="https://www.takinex.com">TAKINEX</a></p>
+
+            <!--Social Icons in Footer-->
+            <ul class="col-2 social-icons">
+                  <li>
+                                <a target="_blank" title="Play Store" href="https://play.google.com/store/apps/dev?id=8408176178113118290">
+                                    <i class="fa fa-android fa-1x"></i><span>Play Store</span>
+                                </a>
+                            </li>
+							
+							<li>
+                                <a target="_blank" title="App Store" href="https://play.google.com/store/apps/dev?id=8408176178113118290">
+                                    <i class="fa fa-apple fa-1x"></i><span>App Store</span>
+                                </a>
+                            </li>
+                         
+                            <li>
+                                <a target="_blank" title="Twitter" href="http://www.twitter.com/takinex">
+                                    <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Instagram" href="http://www.instagram.com/takinex">
+                                    <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                                </a>
+                            </li>
+                           
+            </ul>
+            <!--End of Social Icons in Footer-->
+        </div>
+    </footer>
+    <!--End of Footer-->
+
+</div>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stickyNavbar.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
+
 </body>
 </html>
-
